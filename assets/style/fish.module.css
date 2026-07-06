@@ -1,0 +1,36 @@
+/*Telefon nézet*/
+
+@media (max-width: 768px) {
+    table {
+        border-spacing: 10px 8px;
+        font-size: 14px;
+        display: block;
+        overflow-x: auto;
+        white-space: nowrap;
+    }
+
+    td, th {
+        padding: 5px;
+    }
+
+    aside {
+        margin-left: 10px;
+    }
+
+    .details, small {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+
+/*Nyomtatási előnézet*/
+
+@media print {
+    aside {
+        display: none;
+    }
+
+    details {
+        display: none;
+    }
+}

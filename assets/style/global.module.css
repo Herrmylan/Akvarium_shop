@@ -1,0 +1,138 @@
+body {
+    padding: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+    font-size: 1rem;
+}
+
+.h4-like {
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 1.4;
+    margin: 10px 0;
+    text-align: center;
+}
+
+.h6-like {
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.4;
+    margin: 6px 0;
+    text-align: center;
+}
+
+main, footer, .hero {
+    background-color: #f2f2f2;
+    border-left: solid #ddd;
+    border-right: solid #ddd;
+}
+
+.custom-navbar {
+    background-color: #f2f2f2;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+
+nav a[aria-current="page"], a[aria-current="page"]:hover {
+    color: #1e88e5;
+    border-bottom: 2px solid #1e88e5;
+}
+
+.title {
+    background-image: url(../img/hatter.png);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    color: white;
+    gap: 50px;
+}
+
+.hero {
+    padding-bottom: 30px;
+}
+
+footer {
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    border-top: solid #ddd;
+    border-bottom: solid #ddd;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+    width: 100%;
+}
+
+.rights {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.rights p {
+    margin: 0;
+}
+
+.rights a:link {
+    color: #1565c0;
+}
+
+.rights a:visited {
+    color: #9e9e9e;
+}
+
+.rights a:hover {
+    color: #1565c0;
+}
+
+.rights a {
+    text-decoration: underline;
+}
+
+.icons i {
+    font-size: 20px;
+    margin: 0 8px;
+    cursor: pointer;
+    color: #333;
+    transition: 0.3s;
+}
+
+.icons i:hover, .fb:hover, .ln:hover {
+    color: #1565c0;
+    transform: scale(1.2);
+}
+
+.icons .ig:hover {
+    color: rgb(154, 23, 141);
+    transform: scale(1.2);
+}
+
+.icons .yt:hover {
+    color: red;
+    transform: scale(1.2);
+}
+
+.icons a {
+    text-decoration: none;
+}
+
+/* alapból elrejtve */
+#skip-link {
+    position: absolute;
+    top: -100px;
+    left: 0;
+    background: black;
+    color: white;
+    padding: 8px;
+    z-index: 100;
+}
+
+/* amikor fókuszba kerül (TAB) */
+#skip-link:focus {
+    top: 0;
+}

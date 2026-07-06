@@ -1,0 +1,85 @@
+/*Telefon nézet*/
+
+@media (max-width: 768px) {
+    body {
+        padding: 10px;
+    }
+
+    .card-items {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        padding: 20px 10px;
+    }
+
+    .card-item {
+        width: 90%;
+    }
+
+    .title {
+        height: auto;
+        padding: 40px 10px;
+        gap: 20px;
+        text-align: center;
+    }
+
+    footer {
+        flex-direction: column;
+        height: auto;
+        gap: 10px;
+        text-align: center;
+    }
+}
+
+/*Tablet nézet*/
+
+@media (max-width: 1024px) {
+    body {
+        padding: 15px;
+    }
+
+    .card-items {
+        gap: 30px;
+        padding: 20px 10px;
+    }
+
+    .card-item {
+        width: 45%;
+    }
+}
+
+/*Nyomtatási előnézet*/
+
+@media print {
+    .custom-navbar, footer, .hero {
+        display: none;
+    }
+
+    main {
+        border: none;
+    }
+
+    body {
+        background: white;
+        color: black;
+        font-size: 12pt;
+        line-height: 1.4;
+        margin: 0;
+        padding: 0;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    * {
+        background: none !important;
+        box-shadow: none !important;
+    }
+
+    a {
+        color: black;
+        text-decoration: underline;
+    }
+}
