@@ -13,8 +13,8 @@
     }
 
     .card-item {
-        width: 90% !important;
-        max-width: 90% !important;
+        width: 85% !important;
+        max-width: 85% !important;
     }
 
     .title {
@@ -45,7 +45,7 @@
     }
 
     .card-item {
-        width: 45%;
+        width: 60%;
     }
 }
 
